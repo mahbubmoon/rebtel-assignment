@@ -6,8 +6,7 @@ API-driven library analytics system built with .NET 8, ASP.NET Core minimal APIs
 
 - `Library.API`: Public HTTP API for librarians.
 - `Library.Grpc`: Internal gRPC service used by the API layer.
-- `Library.Application`: Business logic and analytics queries.
-- `Library.Domain`: Book, borrower, and loan entities.
+- `Library.Core`: Business layer and Domain layer, merged for simplicity.
 - `Library.Infrastructure`: Simulated SQL persistence with deterministic sample data.
 - `tests/*`: Unit, integration, functional, and system tests.
 

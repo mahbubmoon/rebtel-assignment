@@ -37,8 +37,9 @@ public static class Warmup
         return string.Concat(Enumerable.Repeat(bookTitle, repeatCount));
     }
     
-    public static void PrintOddNumberedIds(int from, int to)
+    public static IReadOnlyList<int> GetOddNumberedIds(int from, int to)
     {
+        List<int> bookIds = [];
         if (from > to)
         {
             (from, to) = (to, from);
@@ -51,7 +52,9 @@ public static class Warmup
 
         for (int i = from; i <= to; i += 2)
         {
-            Console.WriteLine(i);
+            bookIds.Add(i);
         }
+        
+        return bookIds;
     }
 }

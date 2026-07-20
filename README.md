@@ -24,8 +24,8 @@ Base URL when using the included launch profile: `http://localhost:5217`.
 
 Useful seeded IDs:
 
-- Users: `user-001`, `user-002`, `user-003`, `user-004`, `user-005`
-- Books: `book-001`, `book-002`, `book-003`, `book-004`, `book-005`, `book-006`
+- Users: 11, 12, 13, 14, 15
+- Books: 1, 2, 3, 4, 5, 6
 
 ## Run Locally
 
